@@ -1,0 +1,402 @@
+[
+  {
+    "coName": "United States",
+    "coCase": 614138,
+    "coDeath": 26033,
+    "coRecover": 47137,
+    "coPopulation": 331002651,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_us-flag.gif"
+  },
+  {
+    "coName": "Spain",
+    "coCase": 174060,
+    "coDeath": 18255,
+    "coRecover": 67504,
+    "coPopulation": 46754778,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_sp-flag.gif"
+  },
+  {
+    "coName": "Italy",
+    "coCase": 162488,
+    "coDeath": 21067,
+    "coRecover": 37130,
+    "coPopulation": 60461826,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_it-flag.gif"
+  },
+  {
+    "coName": "France",
+    "coCase": 143303,
+    "coDeath": 15729,
+    "coRecover": 28805,
+    "coPopulation": 65273511,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_fr-flag.gif"
+  },
+  {
+    "coName": "Germany",
+    "coCase": 132286,
+    "coDeath": 3495,
+    "coRecover": 63694,
+    "coPopulation": 83783942,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_gm-flag.gif"
+  },
+  {
+    "coName": "United Kingdom",
+    "coCase": 93873,
+    "coDeath": 12107,
+    "coRecover": 1918,
+    "coPopulation": 67886011,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_uk-flag.gif"
+  },
+  {
+    "coName": "China",
+    "coCase": 82291,
+    "coDeath": 3341,
+    "coRecover": 77756,
+    "coPopulation": 1439323776,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ch-flag.gif"
+  },
+  {
+    "coName": "Iran",
+    "coCase": 74877,
+    "coDeath": 4683,
+    "coRecover": 48129,
+    "coPopulation": 83992949,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ir-flag.gif"
+  },
+  {
+    "coName": "Turkey",
+    "coCase": 65111,
+    "coDeath": 1403,
+    "coRecover": 4799,
+    "coPopulation": 84339067,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_tu-flag.gif"
+  },
+  {
+    "coName": "Belgium",
+    "coCase": 31119,
+    "coDeath": 4157,
+    "coRecover": 6868,
+    "coPopulation": 11589623,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_be-flag.gif"
+  },
+  {
+    "coName": "Netherlands",
+    "coCase": 27419,
+    "coDeath": 2945,
+    "coRecover": 250,
+    "coPopulation": 17134872,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_nl-flag.gif"
+  },
+  {
+    "coName": "Canada",
+    "coCase": 27603,
+    "coDeath": 904,
+    "coRecover": 8235,
+    "coPopulation": 37742154,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ca-flag.gif"
+  },
+  {
+    "coName": "Switzerland",
+    "coCase": 25957,
+    "coDeath": 1175,
+    "coRecover": 14700,
+    "coPopulation": 8654622,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_sz-flag.gif"
+  },
+  {
+    "coName": "Brazil",
+    "coCase": 25262,
+    "coDeath": 1532,
+    "coRecover": 4026,
+    "coPopulation": 212559417,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_br-flag.gif"
+  },
+  {
+    "coName": "Russia",
+    "coCase": 21102,
+    "coDeath": 170,
+    "coRecover": 1694,
+    "coPopulation": 145934462,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_rs-flag.gif"
+  },
+  {
+    "coName": "Portugal",
+    "coCase": 17448,
+    "coDeath": 567,
+    "coRecover": 347,
+    "coPopulation": 10196709,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_po-flag.gif"
+  },
+  {
+    "coName": "Austria",
+    "coCase": 14226,
+    "coDeath": 384,
+    "coRecover": 7633,
+    "coPopulation": 9006398,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_au-flag.gif"
+  },
+  {
+    "coName": "Israel",
+    "coCase": 12046,
+    "coDeath": 123,
+    "coRecover": 2195,
+    "coPopulation": 8655535,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_is-flag.gif"
+  },
+  {
+    "coName": "India",
+    "coCase": 11479,
+    "coDeath": 406,
+    "coRecover": 1361,
+    "coPopulation": 1380004385,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_in-flag.gif"
+  },
+  {
+    "coName": "Ireland",
+    "coCase": 11479,
+    "coDeath": 406,
+    "coRecover": 25,
+    "coPopulation": 4937786,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ei-flag.gif"
+  },
+  {
+    "coName": "Sweden",
+    "coCase": 11445,
+    "coDeath": 1033,
+    "coRecover": 381,
+    "coPopulation": 10099265,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_sw-flag.gif"
+  },
+  {
+    "coName": "South Korea",
+    "coCase": 10564,
+    "coDeath": 222,
+    "coRecover": 7534,
+    "coPopulation": 51269185,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ks-flag.gif"
+  },
+  {
+    "coName": "Peru",
+    "coCase": 10303,
+    "coDeath": 230,
+    "coRecover": 2869,
+    "coPopulation": 32971854,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_pe-flag.gif"
+  },
+  {
+    "coName": "Japan",
+    "coCase": 8173,
+    "coDeath": 162,
+    "coRecover": 853,
+    "coPopulation": 126476461,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ja-flag.gif"
+  },
+  {
+    "coName": "Chile",
+    "coCase": 7917,
+    "coDeath": 92,
+    "coRecover": 2646,
+    "coPopulation": 9116201,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ci-flag.gif"
+  },
+  {
+    "coName": "Ecuador",
+    "coCase": 7603,
+    "coDeath": 369,
+    "coRecover": 696,
+    "coPopulation": 17643054,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ec-flag.gif"
+  },
+  {
+    "coName": "Poland",
+    "coCase": 7202,
+    "coDeath": 263,
+    "coRecover": 618,
+    "coPopulation": 37846611,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_pl-flag.gif"
+  },
+  {
+    "coName": "Romania",
+    "coCase": 6879,
+    "coDeath": 351,
+    "coRecover": 1051,
+    "coPopulation": 19237691,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ro-flag.gif"
+  },
+  {
+    "coName": "Norway",
+    "coCase": 6686,
+    "coDeath": 139,
+    "coRecover": 32,
+    "coPopulation": 5421241,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_no-flag.gif"
+  },
+  {
+    "coName": "Denmark",
+    "coCase": 6511,
+    "coDeath": 299,
+    "coRecover": 2515,
+    "coPopulation": 5792202,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_da-flag.gif"
+  },
+  {
+    "coName": "Australia",
+    "coCase": 6415,
+    "coDeath": 62,
+    "coRecover": 3598,
+    "coPopulation": 25499884,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_as-flag.gif"
+  },
+  {
+    "coName": "Czech Republic",
+    "coCase": 6141,
+    "coDeath": 161,
+    "coRecover": 642,
+    "coPopulation": 10708981,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ez-flag.gif"
+  },
+  {
+    "coName": "Pakistan",
+    "coCase": 5984,
+    "coDeath": 107,
+    "coRecover": 1425,
+    "coPopulation": 220892340,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_pk-flag.gif"
+  },
+  {
+    "coName": "Mexico",
+    "coCase": 5399,
+    "coDeath": 406,
+    "coRecover": 1964,
+    "coPopulation": 128932753,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_mx-flag.gif"
+  },
+  {
+    "coName": "Saudi Arabia",
+    "coCase": 5369,
+    "coDeath": 73,
+    "coRecover": 889,
+    "coPopulation": 34813871,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_sa-flag.gif"
+  },
+  {
+    "coName": "Philippines",
+    "coCase": 5223,
+    "coDeath": 335,
+    "coRecover": 295,
+    "coPopulation": 109581078,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_rp-flag.gif"
+  },
+  {
+    "coName": "Malaysia",
+    "coCase": 4987,
+    "coDeath": 82,
+    "coRecover": 2478,
+    "coPopulation": 32365999,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_my-flag.gif"
+  },
+  {
+    "coName": "United Arab Emirates",
+    "coCase": 2990,
+    "coDeath": 14,
+    "coRecover": 239,
+    "coPopulation": 9890402,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ae-flag.gif"
+  },
+  {
+    "coName": "Indonesia",
+    "coCase": 4839,
+    "coDeath": 459,
+    "coRecover": 426,
+    "coPopulation": 273523615,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_id-flag.gif"
+  },
+  {
+    "coName": "Serbia",
+    "coCase": 4465,
+    "coDeath": 94,
+    "coRecover": 400,
+    "coPopulation": 8737371,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_ri-flag.gif"
+  },
+  {
+    "coName": "Panama",
+    "coCase": 3574,
+    "coDeath": 95,
+    "coRecover": 72,
+    "coPopulation": 4314767,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_pm-flag.gif"
+  },
+  {
+    "coName": "Qatar",
+    "coCase": 3428,
+    "coDeath": 7,
+    "coRecover": 373,
+    "coPopulation": 2881053,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_qa-flag.gif"
+  },
+  {
+    "coName": "Ukraine",
+    "coCase": 3372,
+    "coDeath": 98,
+    "coRecover": 119,
+    "coPopulation": 43733762,
+    "coFlagUri": "https://www.worldometers.info/img/flags/up-flag.gif"
+  },
+  {
+    "coName": "Luxembourg",
+    "coCase": 3115,
+    "coDeath": 52,
+    "coRecover": 500,
+    "coPopulation": 625978,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_lu-flag.gif"
+  },
+  {
+    "coName": "Dominican Republic",
+    "coCase": 3286,
+    "coDeath": 183,
+    "coRecover": 162,
+    "coPopulation": 10847910,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_dr-flag.gif"
+  },
+  {
+    "coName": "Belarus",
+    "coCase": 3281,
+    "coDeath": 33,
+    "coRecover": 203,
+    "coPopulation": 9449323,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_dr-flag.gif"
+  },
+  {
+    "coName": "Singapore",
+    "coCase": 3252,
+    "coDeath": 10,
+    "coRecover": 611,
+    "coPopulation": 5850342,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_sn-flag.gif"
+  },
+  {
+    "coName": "Finland",
+    "coCase": 3161,
+    "coDeath": 64,
+    "coRecover": 300,
+    "coPopulation": 5540720,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_fi-flag.gif"
+  },
+  {
+    "coName": "Colombia",
+    "coCase": 2979,
+    "coDeath": 127,
+    "coRecover": 354,
+    "coPopulation": 50882891,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_co-flag.gif"
+  },
+  {
+    "coName": "Thailand",
+    "coCase": 2613,
+    "coDeath": 41,
+    "coRecover": 1405,
+    "coPopulation": 69799978,
+    "coFlagUri": "https://www.worldometers.info/img/flags/small/tn_th-flag.gif"
+  }
+]
