@@ -8,6 +8,7 @@ import {
   Image,
 } from 'react-native';
 import Country from './Country';
+import Loading from './Loading';
 
 const lastUpdate = ' Last Updated: 4/15/2020 02:00AM (CET)';
 const headerContext =
@@ -15,7 +16,7 @@ const headerContext =
 const headerContext2 =
   'Common symptoms include fever, cough, and shortness of breath. Other symptoms may include fatigue, muscle pain, diarrhea, sore throat, loss of smell, and abdominal pain. The time from exposure to onset of symptoms is typically around five days but may range from two to fourteen days. While the majority of cases result in mild symptoms, some progress to viral pneumonia and multi-organ failure';
 
-const Header = props => {
+const Header = () => {
   return (
     <View style={styles.header}>
       <ScrollView
@@ -109,7 +110,14 @@ import IconMI from 'react-native-vector-icons/MaterialIcons';
 const output1 = [],
   output2 = [],
   output3 = [];
-
+/*
+const Loader = props => {
+  setTimeout(() => {
+    props.setLoaded(false);
+  }, 3000);
+  return <Text>{props.loaded ? 'EBA' : 'BIL'}</Text>;
+};
+*/
 const Context = () => {
   const db = require('../database/database.json');
   let db2String = JSON.stringify(db);
@@ -125,6 +133,7 @@ const Context = () => {
     return a.coRecover - b.coRecover;
   });
 
+  const [loaded, setLoaded] = useState(false);
   const [popUp, setPopUp] = useState(0);
   const [popUpFlagUri, setPopUpFlagUri] = useState(0);
   const [popUpPopulation, setPopUpPopulation] = useState(0);
@@ -154,6 +163,7 @@ const Context = () => {
         setPopUpCasesPer1M={setPopUpCasesPer1M}
         setPopUpDeathsPer1M={setPopUpDeathsPer1M}
         setPopUpRecoveredPer1M={setPopUpRecoveredPer1M}
+        key={'output1' + i}
       />
     );
 
@@ -175,6 +185,7 @@ const Context = () => {
         setPopUpCasesPer1M={setPopUpCasesPer1M}
         setPopUpDeathsPer1M={setPopUpDeathsPer1M}
         setPopUpRecoveredPer1M={setPopUpRecoveredPer1M}
+        key={'output2' + i}
       />
     );
 
@@ -196,62 +207,73 @@ const Context = () => {
         setPopUpCasesPer1M={setPopUpCasesPer1M}
         setPopUpDeathsPer1M={setPopUpDeathsPer1M}
         setPopUpRecoveredPer1M={setPopUpRecoveredPer1M}
+        key={'output3' + i}
       />
     );
   }
 
+  setTimeout(() => {
+    setLoaded(true);
+  }, 3000);
+
   return (
     <View>
-      <View style={styles.container}>
-        {popUp ? (
-          <PopUp
-            popUpFlagUri={popUpFlagUri}
-            popUpPopulation={popUpPopulation}
-            popUpCases={popUpCases}
-            popUpDeaths={popUpDeaths}
-            popUpRecovered={popUpRecovered}
-            popUpCasesPer1M={popUpCasesPer1M}
-            popUpDeathsPer1M={popUpDeathsPer1M}
-            popUpRecoveredPer1M={popUpRecoveredPer1M}
-          />
-        ) : (
-          <Header />
-        )}
-      </View>
-      <View style={styles.context}>
-        <ScrollView horizontal={true} pagingEnabled={true}>
-          <View style={styles.page1}>
-            <View style={styles.contextInner}>
-              <ScrollView
-                style={styles.innerScroll}
-                showsVerticalScrollIndicator={false}>
-                <Text style={styles.contextTitle}>MOST CASES</Text>
-                <View style={styles.contextWrapper}>{output1}</View>
-              </ScrollView>
-            </View>
+      {loaded ? (
+        <View>
+          <View style={styles.container}>
+            {popUp ? (
+              <PopUp
+                popUpFlagUri={popUpFlagUri}
+                popUpPopulation={popUpPopulation}
+                popUpCases={popUpCases}
+                popUpDeaths={popUpDeaths}
+                popUpRecovered={popUpRecovered}
+                popUpCasesPer1M={popUpCasesPer1M}
+                popUpDeathsPer1M={popUpDeathsPer1M}
+                popUpRecoveredPer1M={popUpRecoveredPer1M}
+              />
+            ) : (
+              <Header />
+            )}
           </View>
-          <View style={styles.page2}>
-            <View style={styles.contextInner}>
-              <ScrollView
-                style={styles.innerScroll}
-                showsVerticalScrollIndicator={false}>
-                <Text style={styles.contextTitle}>MOST DEATHS</Text>
-                <View style={styles.contextWrapper}>{output2}</View>
-              </ScrollView>
-            </View>
+          <View style={styles.context}>
+            <ScrollView horizontal={true} pagingEnabled={true}>
+              <View style={styles.page1}>
+                <View style={styles.contextInner}>
+                  <ScrollView
+                    style={styles.innerScroll}
+                    showsVerticalScrollIndicator={false}>
+                    <Text style={styles.contextTitle}>MOST CASES</Text>
+                    <View style={styles.contextWrapper}>{output1}</View>
+                  </ScrollView>
+                </View>
+              </View>
+              <View style={styles.page2}>
+                <View style={styles.contextInner}>
+                  <ScrollView
+                    style={styles.innerScroll}
+                    showsVerticalScrollIndicator={false}>
+                    <Text style={styles.contextTitle}>MOST DEATHS</Text>
+                    <View style={styles.contextWrapper}>{output2}</View>
+                  </ScrollView>
+                </View>
+              </View>
+              <View style={styles.page3}>
+                <View style={styles.contextInner}>
+                  <ScrollView
+                    style={styles.innerScroll}
+                    showsVerticalScrollIndicator={false}>
+                    <Text style={styles.contextTitle}>MOST RECOVERED</Text>
+                    <View style={styles.contextWrapper}>{output3}</View>
+                  </ScrollView>
+                </View>
+              </View>
+            </ScrollView>
           </View>
-          <View style={styles.page3}>
-            <View style={styles.contextInner}>
-              <ScrollView
-                style={styles.innerScroll}
-                showsVerticalScrollIndicator={false}>
-                <Text style={styles.contextTitle}>MOST RECOVERED</Text>
-                <View style={styles.contextWrapper}>{output3}</View>
-              </ScrollView>
-            </View>
-          </View>
-        </ScrollView>
-      </View>
+        </View>
+      ) : (
+        <Loading />
+      )}
     </View>
   );
 };
