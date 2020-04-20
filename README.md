@@ -1,4 +1,4 @@
-# Covid19Tracker
+# pandemic
  Mobile Covid-19 Tracker App
 
 ## Build Setup
