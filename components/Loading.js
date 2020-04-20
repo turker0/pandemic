@@ -1,14 +1,15 @@
 import React, {useRef} from 'react';
 import {View, Text, Image, StyleSheet, Animated} from 'react-native';
 
-const Loading = () => {
+const Loading = ({navigation}) => {
   const fadeAnim = useRef(new Animated.Value(0)).current;
-  // Will change fadeAnim value to 1 in 5 seconds
   Animated.timing(fadeAnim, {
     toValue: 1,
     duration: 3000,
     useNativeDriver: true,
   }).start();
+
+  setTimeout(() => navigation.push('Home'), 3000);
 
   return (
     <View style={styles.container}>

@@ -17,7 +17,6 @@ const Country = props => {
     props.setPopUpRecoveredPer1M(
       (props.coRecover / (props.coPopulation / 1000000).toFixed()).toFixed(),
     );
-    props.callback(1);
   };
   return (
     <View style={styles.container}>
